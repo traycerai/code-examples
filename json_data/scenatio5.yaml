@@ -1,0 +1,12 @@
+- id: 1
+  attributes:
+    value: 10
+    status: "active"
+- id: 2
+  attributes:
+    value: 20
+    status: "inactive"
+- id: 3
+  attributes:
+    value: 30
+    status: "active"

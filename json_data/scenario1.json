@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "attributes": {
+      "value": 0.1,
+      "status": "active"
+    }
+  },
+  {
+    "id": 2,
+    "attributes": {
+      "value": 0.2,
+      "status": "inactive"
+    }
+  },
+  {
+    "id": 3,
+    "attributes": {
+      "value": 0.3,
+      "status": "active"
+    }
+  }
+]
