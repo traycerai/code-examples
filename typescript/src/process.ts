@@ -1,4 +1,5 @@
-import { transformData } from "./transform.js";
+import { Tranform } from "./transform";
+
 
 export function processData(jsonData: any[]) {
   // Extracts 'value' fields from each record.
@@ -8,5 +9,5 @@ export function processData(jsonData: any[]) {
     }
     return record.attributes.value;
   });
-  return transformData(extractedData);
+  return Tranform.transformData(extractedData);
 }
