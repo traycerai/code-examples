@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "npm run compile",
+    "compile": "tsc -p ./",
+    "start": "npm run build && node lib/app.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "typescript": "^5.3.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
