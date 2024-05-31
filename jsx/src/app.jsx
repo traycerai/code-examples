@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { processData } from './process.jsx';
+import { processData } from './process.js';
 
 // Mock data fetching function
 const fetchJsonData = () => {

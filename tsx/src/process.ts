@@ -1,6 +1,6 @@
-import { transformData } from './transform.jsx';
+import { transformData } from './transform';
 
-export function processData(jsonData) {
+export function processData(jsonData: any[]): number {
   const extractedData = jsonData.map(record => {
     if (!record.attributes || record.attributes.value === undefined) {
       throw new Error('Missing attributes or value field');
