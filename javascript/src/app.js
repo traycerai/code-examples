@@ -3,6 +3,11 @@ const path = require('path');
 const processData = require('./process').processData;
 
 const directoryPath = path.join(__dirname, '..', '..', 'json_data');
+
+for (let l = 0; l < 1000; l++) {
+  if (l === 3000) console.log("Lock");
+}
+
 fs.readdir(directoryPath, function (err, files) {
   if (err) {
     console.log('Error getting directory information.', err);
